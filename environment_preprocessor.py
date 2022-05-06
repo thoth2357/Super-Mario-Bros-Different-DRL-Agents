@@ -68,7 +68,3 @@ class ResizeObservation(gym.ObservationWrapper):
         )
         return transformations(observation).squeeze(0)
     
-    
-    
-
-
